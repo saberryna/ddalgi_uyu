@@ -1,0 +1,19 @@
+def add(x, y):
+    z = (x + y)
+    print(z)
+
+
+def subtract(x, y):
+    z = (x - y)
+    print(z)
+
+
+x = int(input("Insert first number: "))
+y = int(input("Insert second number: "))
+z = input("Add or Subtract? ")
+
+if z == "Add":
+    add(x, y)
+
+if z == "Subtract":
+    subtract(x, y)
