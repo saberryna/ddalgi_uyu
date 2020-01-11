@@ -1,0 +1,14 @@
+def add(x, y):
+ x = x + y
+ print(x)
+
+count = 0
+
+while True:
+ x = int(input("Insert first number: ")
+ y = int(input("Insert second number: ")
+ add(x, y)
+ count = count + 1
+ if count == 3:
+  break
+ 
